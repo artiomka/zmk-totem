@@ -11,11 +11,11 @@ layers:
   - I
   - O
   - P
-  - {t: A, h: Alt}
+  - A
   - S
   - D
   - F
-  - {t: G, h: Cmd}
+  - G
   - H
   - J
   - K
