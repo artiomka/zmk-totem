@@ -157,5 +157,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
 combos:
-- p: [0, 1]
+- p: [16, 17]
   k: Esc
+- p: [23, 24]
+  k: Sft+Gui+___
