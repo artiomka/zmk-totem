@@ -35,9 +35,9 @@ layers:
   - \
   - Ctrl
   - {t: ESCAPE, h: Cmd}
-  - {t: BACKSPACE, h: '3'}
+  - {t: BACKSPACE, h: NAVI}
   - {t: ___, h: Alt}
-  - {t: ENTER, h: NAVI}
+  - {t: ENTER, h: '3'}
   - {t: DEL, h: ADJ}
   NAVI:
   - {t: ▽, type: trans}
@@ -74,9 +74,9 @@ layers:
   - GRAVE
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - {type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - '0'
   ADJ:
   - {t: ▽, type: trans}
@@ -152,9 +152,9 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {type: held}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
 combos:
 - p: [16, 17]
