@@ -142,7 +142,7 @@ text.mod {
 <g transform="translate(34, 209) rotate(-10.0)" class="key keypos-20">
 <rect rx="4" ry="4" x="-28" y="-26" width="55" height="52" class="key"/>
 <text x="0" y="0" class="key tap">TAB</text>
-<text x="0" y="24" class="key hold">Shift</text>
+<text x="0" y="24" class="key hold"><tspan style="font-size: 70%">LEFT SHIFT</tspan></text>
 </g>
 <g transform="translate(97, 223) rotate(-10.0)" class="key keypos-21">
 <rect rx="4" ry="4" x="-28" y="-26" width="55" height="52" class="key"/>
@@ -187,39 +187,37 @@ text.mod {
 <g transform="translate(817, 209) rotate(10.0)" class="key keypos-31">
 <rect rx="4" ry="4" x="-28" y="-26" width="55" height="52" class="key"/>
 <text x="0" y="0" class="key tap">\</text>
+<text x="0" y="24" class="key hold"><tspan style="font-size: 64%">RIGHT SHIFT</tspan></text>
 </g>
 <g transform="translate(255, 236)" class="key keypos-32">
 <rect rx="4" ry="4" x="-28" y="-26" width="55" height="52" class="key"/>
-<text x="0" y="0" class="key tap">Ctrl</text>
+<text x="0" y="0" class="key tap">
+<tspan x="0" dy="-0.6em">LEFT</tspan><tspan x="0" dy="1.2em">WIN</tspan>
+</text>
 </g>
 <g transform="translate(320, 245) rotate(15.0)" class="key keypos-33">
 <rect rx="4" ry="4" x="-28" y="-26" width="55" height="52" class="key"/>
-<text x="0" y="0" class="key tap">ESCAPE</text>
-<text x="0" y="24" class="key hold">Cmd</text>
-</g>
+<a href="#NAVI">
+<text x="0" y="0" class="key tap layer-activator">NAVI</text>
+</a></g>
 <g transform="translate(381, 270) rotate(30.0)" class="key keypos-34">
 <rect rx="4" ry="4" x="-28" y="-26" width="55" height="52" class="key"/>
 <text x="0" y="0" class="key tap"><tspan style="font-size: 78%">BACKSPACE</tspan></text>
-<a href="#NAVI">
-<text x="0" y="24" class="key hold layer-activator">NAVI</text>
-</a></g>
+</g>
 <g transform="translate(470, 270) rotate(-30.0)" class="key keypos-35">
 <rect rx="4" ry="4" x="-28" y="-26" width="55" height="52" class="key"/>
 <text x="0" y="0" class="key tap">___</text>
-<text x="0" y="24" class="key hold">Alt</text>
 </g>
 <g transform="translate(531, 245) rotate(-15.0)" class="key keypos-36">
 <rect rx="4" ry="4" x="-28" y="-26" width="55" height="52" class="key"/>
 <text x="0" y="0" class="key tap">ENTER</text>
-<a href="#x_x">
-<text x="0" y="24" class="key hold layer-activator">3</text>
-</a></g>
+<text x="0" y="24" class="key hold">Ctrl</text>
+</g>
 <g transform="translate(596, 236)" class="key keypos-37">
 <rect rx="4" ry="4" x="-28" y="-26" width="55" height="52" class="key"/>
 <text x="0" y="0" class="key tap">DEL</text>
-<a href="#ADJ">
-<text x="0" y="24" class="key hold layer-activator">ADJ</text>
-</a></g>
+<text x="0" y="24" class="key hold"><tspan style="font-size: 78%">RIGHT ALT</tspan></text>
+</g>
 </g>
 </g>
 <g transform="translate(12, 322)" class="layer-NAVI">
@@ -359,12 +357,12 @@ text.mod {
 <rect rx="4" ry="4" x="-28" y="-26" width="55" height="52" class="key trans"/>
 <text x="0" y="0" class="key trans tap">▽</text>
 </g>
-<g transform="translate(320, 245) rotate(15.0)" class="key trans keypos-33">
+<g transform="translate(320, 245) rotate(15.0)" class="key held keypos-33">
+<rect rx="4" ry="4" x="-28" y="-26" width="55" height="52" class="key held"/>
+</g>
+<g transform="translate(381, 270) rotate(30.0)" class="key trans keypos-34">
 <rect rx="4" ry="4" x="-28" y="-26" width="55" height="52" class="key trans"/>
 <text x="0" y="0" class="key trans tap">▽</text>
-</g>
-<g transform="translate(381, 270) rotate(30.0)" class="key held keypos-34">
-<rect rx="4" ry="4" x="-28" y="-26" width="55" height="52" class="key held"/>
 </g>
 <g transform="translate(470, 270) rotate(-30.0)" class="key trans keypos-35">
 <rect rx="4" ry="4" x="-28" y="-26" width="55" height="52" class="key trans"/>
@@ -537,8 +535,9 @@ text.mod {
 <rect rx="4" ry="4" x="-28" y="-26" width="55" height="52" class="key trans"/>
 <text x="0" y="0" class="key trans tap">▽</text>
 </g>
-<g transform="translate(596, 236)" class="key held keypos-37">
-<rect rx="4" ry="4" x="-28" y="-26" width="55" height="52" class="key held"/>
+<g transform="translate(596, 236)" class="key trans keypos-37">
+<rect rx="4" ry="4" x="-28" y="-26" width="55" height="52" class="key trans"/>
+<text x="0" y="0" class="key trans tap">▽</text>
 </g>
 </g>
 </g>
@@ -693,8 +692,9 @@ text.mod {
 <rect rx="4" ry="4" x="-28" y="-26" width="55" height="52" class="key trans"/>
 <text x="0" y="0" class="key trans tap">▽</text>
 </g>
-<g transform="translate(531, 245) rotate(-15.0)" class="key held keypos-36">
-<rect rx="4" ry="4" x="-28" y="-26" width="55" height="52" class="key held"/>
+<g transform="translate(531, 245) rotate(-15.0)" class="key trans keypos-36">
+<rect rx="4" ry="4" x="-28" y="-26" width="55" height="52" class="key trans"/>
+<text x="0" y="0" class="key trans tap">▽</text>
 </g>
 <g transform="translate(596, 236)" class="key trans keypos-37">
 <rect rx="4" ry="4" x="-28" y="-26" width="55" height="52" class="key trans"/>

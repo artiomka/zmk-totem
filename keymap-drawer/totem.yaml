@@ -21,7 +21,7 @@ layers:
   - K
   - L
   - ;
-  - {t: TAB, h: Shift}
+  - {t: TAB, h: LEFT SHIFT}
   - Z
   - X
   - C
@@ -32,13 +32,13 @@ layers:
   - ','
   - .
   - /
-  - \
-  - Ctrl
-  - {t: ESCAPE, h: Cmd}
-  - {t: BACKSPACE, h: NAVI}
-  - {t: ___, h: Alt}
-  - {t: ENTER, h: '3'}
-  - {t: DEL, h: ADJ}
+  - {t: \, h: RIGHT SHIFT}
+  - LEFT WIN
+  - NAVI
+  - BACKSPACE
+  - ___
+  - {t: ENTER, h: Ctrl}
+  - {t: DEL, h: RIGHT ALT}
   NAVI:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -73,8 +73,8 @@ layers:
   - SQT
   - GRAVE
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - {type: held}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - '0'
@@ -116,7 +116,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {type: held}
+  - {t: ▽, type: trans}
   '3':
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -154,7 +154,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {type: held}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
 combos:
 - p: [16, 17]
