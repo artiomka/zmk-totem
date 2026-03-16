@@ -39,6 +39,11 @@
             bindings = <&kp LS(LG(SPACE))>;
             key-positions = <23 24>;
         };
+
+        layer2 {
+            bindings = <&sl 2>;
+            key-positions = <16 17 18>;
+        };
     };
 
     keymap {
