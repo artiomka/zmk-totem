@@ -76,8 +76,8 @@ layers:
   - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - '0'
+  - RIGHT ALT
   ADJ:
   - {t: ▽, type: trans}
   - PP
