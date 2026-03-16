@@ -95,9 +95,9 @@ layers:
   - Vol+
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - F4
-  - F5
-  - F6
+  - {t: F4, type: held}
+  - {t: F5, type: held}
+  - {t: F6, type: held}
   - F11
   - BT Clr
   - BT Prv
@@ -161,3 +161,5 @@ combos:
   k: Esc
 - p: [23, 24]
   k: Sft+Gui+___
+- p: [16, 17, 18]
+  k: {t: ADJ, h: '$$mdi:layer-plus$$'}
