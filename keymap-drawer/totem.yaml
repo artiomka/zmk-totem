@@ -37,8 +37,8 @@ layers:
   - NAVI
   - BACKSPACE
   - ___
-  - {t: ENTER, h: Ctrl}
-  - {t: DEL, h: RIGHT ALT}
+  - {t: ENTER, h: RIGHT ALT}
+  - {t: DEL, h: Ctrl}
   NAVI:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -81,7 +81,7 @@ layers:
   ADJ:
   - {t: ▽, type: trans}
   - PP
-  - {t: ▽, type: trans}
+  - BT CLR ALL
   - Mute
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
